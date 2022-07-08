@@ -44,5 +44,4 @@ class Test_UserAgent:
             assert user_agent_Data['platform']==platforms[i], 'Wrong value of a parameter'
             assert user_agent_Data['browser']==browsers[i], 'Wrong value of a parameter'
             assert user_agent_Data['device']==devices[i], 'Wrong value of a parameter'
-            break
             
